@@ -13,11 +13,14 @@ const penjumlahanBiasa = (a, b) => {
 const nama = "luthfi";
 console.log(nama);
 nama = "dia";
+// error, karena, const itu konstan ( ga bisa diganti isinya )
 console.log(nama);
 
 // var isi nya bisa diubah
+// var / let sama aja
 var nama2 = "luthfi";
 console.log(nama2);
+// bisa diganti, karena var / let
 nama2 = "aku";
 console.log(nama2);
 
