@@ -8,6 +8,7 @@ console.log("JS Tersambung");
 // - tags name
 
 // Mengakses seluruh baris html
+// document = seluruh baris html
 console.log(document);
 
 // Mengakses element html yang memiliki id "tagger"
@@ -71,5 +72,3 @@ const submitNama = () => {
 
 // menambahkan event click ketika button ditekan dan memasukan function submitNama
 buttonSubmit.addEventListener("click", () => submitNama(event));
-
-//

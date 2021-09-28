@@ -1,0 +1,19 @@
+HTML
+
+1. nama
+2. umur
+
+semua elemen, semua baris, bisa kita sambungin ke Javascript
+menggunakan DOM
+
+|
+|
+V
+
+DOM ( Document Object Model )
+
+|
+|
+V
+
+Javascript ( Bahasa Pemrograman )
