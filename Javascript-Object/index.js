@@ -30,3 +30,15 @@ console.log(kegiatan());
 // Cara ketiga
 console.log(siswa["nama"]);
 console.log(siswa["kegiatan"]());
+
+let kucing = {
+  warna: "kuning",
+  umur: "12",
+  //method
+  suara: function () {
+    return "meong";
+  },
+};
+
+console.log(kucing.umur);
+console.log(kucing.suara());
