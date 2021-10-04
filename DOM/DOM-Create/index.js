@@ -19,3 +19,4 @@ document
 document
   .getElementById("btn-comment")
   .addEventListener("click", () => writeComment());
+inde;
