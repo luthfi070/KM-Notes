@@ -35,5 +35,3 @@ prom
   .then((data) => {
     console.log(data);
   });
-
-// console.log(prom);
