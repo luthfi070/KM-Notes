@@ -14,24 +14,21 @@
 // const myFirstPromise = new Promise(executorFunction);
 // console.log(myFirstPromise);
 
+// Proses ngebikin promise function
 const returnPromiseFunction = (resolve, reject) => {
   setTimeout(() => {
     resolve("Berhasil");
-  }, 1000);
+  }, 5000);
 };
 
 const secondPromise = (resolve, reject) => {
   resolve("berhasil kedua");
 };
 
+// di convert jadi promise function
 let prom = new Promise(returnPromiseFunction);
 let prom2 = new Promise(secondPromise);
 
-prom
-  .then((result) => {
-    console.log(result);
-    return prom;
-  })
-  .then((data) => {
-    console.log(data);
-  });
+prom.then((result) => {
+  console.log(result);
+});
